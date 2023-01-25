@@ -1,0 +1,46 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: "EB Garamond";
+}
+
+/* nav */
+.btn {
+  background-color: #b68c5a;
+}
+.btn:hover {
+  background-color: #b68c5a;
+}
+
+/* Banner style */
+.banner {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(images/banner.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+  .translate-middle {
+  transform: translate(-50%, -50%) !important;
+}  
+
+/* legal area */
+ .bg-color {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+} 
+
+/* our clint */
+.translate-middle {
+  transform: translate(-50%, -50%) !important;
+} */
+
+/* footer style */
+.list-none li {
+  list-style: none;
+}
